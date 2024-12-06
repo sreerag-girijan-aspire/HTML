@@ -1,2 +1,2 @@
 # HTML
-Daily HTML update as Date as folder name.
+Daily HTML update .
