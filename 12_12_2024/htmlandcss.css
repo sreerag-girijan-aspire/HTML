@@ -6,3 +6,21 @@ h1 {
     border:solid red 1px;
   }
   
+
+  .note {
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .editorial {
+    background: rgb(255, 0, 0, 0.25);
+    padding: 10px;
+  }
+  
+  .editorial:before {
+    content: 'Editor: ';
+  }
+
+  .spanClass::before{
+    content: "(content added)";
+  }
