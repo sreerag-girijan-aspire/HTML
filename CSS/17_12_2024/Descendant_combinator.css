@@ -1,0 +1,8 @@
+li {
+    list-style-type: upper-alpha;
+  }
+  
+  li li {
+    list-style-type: lower-alpha;
+  }
+  
