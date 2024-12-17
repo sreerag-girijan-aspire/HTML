@@ -1,0 +1,8 @@
+span {
+    background-color: aqua;
+  }
+  
+  div > span {
+    background-color: yellow;
+  }
+  
