@@ -1,0 +1,14 @@
+#blue {
+    background-color: skyblue;
+  }
+  
+  /* In the next two rules, the id attributes must be escaped */
+
+#item\?one {
+    background-color: pink;
+  }
+  
+  #\00003123item {
+    background-color: yellow;
+  }
+  
