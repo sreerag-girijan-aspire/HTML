@@ -2,3 +2,8 @@
     column-count: 2;
   }
   
+
+  #wid {
+    column-width: 100px;
+  }
+  
