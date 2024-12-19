@@ -1,0 +1,14 @@
+.positioned {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    color:red;
+  }
+  
+  .positionedd {
+    position: sticky;
+    top: 30px;
+    left: 30px;
+    color:blueviolet;
+  }
+  
