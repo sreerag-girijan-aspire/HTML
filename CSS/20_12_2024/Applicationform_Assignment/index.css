@@ -1,0 +1,36 @@
+
+.heading1{
+    background-color:rgb(210, 69, 69);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading3{
+    color: rgb(216, 36, 36);
+}
+
+
+.dotted{
+    border-top:2px dotted red;
+}
+
+.wrap{
+    display: grid;
+    flex-flow: row wrap;
+    gap: 10px;
+    
+}
+
+.label{
+column-count: 1;
+}
+
+.input{
+    column-count: 2;
+    position: relative;
+    left: 30%;
+}
+
+.red{
+    color: red;
+}
