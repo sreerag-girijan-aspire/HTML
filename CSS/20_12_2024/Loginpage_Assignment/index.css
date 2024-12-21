@@ -1,7 +1,8 @@
 body{
     background-image: url("images/Background.jpg") ;
     background-repeat: no-repeat;
-    background-size: 1920px 1080px;
+    background-size: cover;
+    /* background-position: center center; */
 }
 
 .loginmain{
@@ -39,4 +40,15 @@ padding: 10%;
 .googleBtn img{
     height: 30px;
     padding-top: 3px;
+}
+
+.userName{
+    display:flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10%; 
+    padding-left: 25%;
+    row-gap: 10px;
+    border: 1px solid red;
+
 }
