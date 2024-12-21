@@ -1,15 +1,11 @@
 body{
-    background-image: url("Background.jpg") ;
+    background-image: url("images/Background.jpg") ;
     background-repeat: no-repeat;
-    background-size: cover;
     background-size: 1920px 1080px;
 }
 
 .loginmain{
     background-color: white;
-    /* margin-left: 30%;
-    margin-right: 30%;
-    margin-bottom: 10%; */
     width: 500px;
     height: 500px;
     margin-left: 30%;
@@ -24,4 +20,23 @@ body{
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 padding: 10%;
+}
+
+.loginbtn {
+    display: flex;
+    gap: 10%;
+    justify-content: center;    
+}
+
+.loginbtn button{
+    border: 1px solid rgb(179, 166, 166);
+    border-radius: 5px;
+}
+.fbBtn img{
+    height: 30px;
+}
+
+.googleBtn img{
+    height: 30px;
+    padding-top: 3px;
 }
