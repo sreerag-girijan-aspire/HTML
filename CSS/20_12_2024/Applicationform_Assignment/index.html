@@ -3,64 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Application Form</title>
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"> -->
+    <title>Job Appication</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-        <h1 class="heading1" >Job Application</h1>
-        <h3 class="heading3">Personal Information</h3>
-        <hr class="dotted">
-
-        <div class="jobform">    
-            <form action="" class="form">
-                <div class="fullName wrap">
-                    <label class="label" for="Full_name">Full name <span class="red">*</span></label>
-                    <input class="input" type="text" id="Full_name" name="First_name" >
-                    <input class="input" type="text" id="Full_name" name="Last_name" >
-                </div>
-
-                <div class="dob wrap">
-                    <label class="label" for="DOB">Date of Birth <span class="red">*</span></label>
-                    <input class="input" type="text" id="DOB" name="DOB"><br>
-                </div>
-
-                <div class="gender wrap">
-                    <label class="label" for="Gender">Gender <span class="red">*</span></label>
-                    <div class="input">
-                        <input type="radio" id="Gender" name="Gender" value="Male">Male
-                        <input type="radio" id="Gender" name="Gender" value="Female">Female
-                    </div>
-                </div>
-    
-                <div class="education">
-                    <label class="label" for="Education">Education</label>
-                    <select class="input" name="Education" id="Education">
-                        <option value="SSLC">SSLC</option>
-                        <option value="HSE">HSE</option>
-                        <option value="Bachelors">Bachelors</option>
-                        <option value="Masters">Masters</option>
-                        <option value="UG">UG</option>
-                        <option value="PG">PG</option>
-                    </select>
-                </div>
-
-                <div class="resume ">
-                    <label class="label" for="Resume">Resume <span class="red">*</span></label>
-                    <input class="input" type="file" id="Resume"><br>
-                </div>
-
-                <div class="address wrap">
-                    <label class="label" for="Address">Address</label>
-                    <input class="input" type="text" id="Address">
-                    <input class="input" type="text" id="Address">
-                    <input class="input" type="text" id="Address">
-                </div>
-
-            </form>
+    <h1 class="heading1" >Job Application</h1>
+    <h3 class="heading3">Personal Information</h3>
+    <hr class="dotted">
+    <form action="">
+        <div class="container">
+            <div class="label">
+                <label for="Full_name">Full name <span class="red">*</span></label>
+            </div>
+            <div class="input row">
+                <input type="text" id="Full_name" name="First_name" placeholder="First Name">
+                <input type="text" id="Full_name" name="Last_name" placeholder="Last Name">
+            </div> 
         </div>
-    </div>
+        <div class="container">
+            <div class="label">
+                <label for="DOB">Date of Birth <span class="red">*</span></label>
+            </div>
+            <div class="input">
+                <input type="text" id="DOB" name="DOB">
+            </div>
+        </div>
+        <div class="container">
+            <div class="label">
+                <label for="Gender">Gender <span class="red">*</span></label>
+            </div>
+            <div class="input row radio">
+                <input type="radio" id="Gender" name="Gender" value="Male">Male
+                <input type="radio" id="Gender" name="Gender" value="Female">Female
+            </div>
+        </div>
 
+        <div class="container">
+            <div class="label">
+                <label for="Education">Education</label>
+            </div>
+            <div class="input">
+                <select name="Education" id="Education">
+                    <option value="SSLC">SSLC</option>
+                    <option value="HSE">HSE</option>
+                    <option value="Bachelors">Bachelors</option>
+                    <option value="Masters">Masters</option>
+                    <option value="UG">UG</option>
+                    <option value="PG">PG</option>
+                </select>
+            </div>
+        </div>
+        <div class="container">
+            <div class="label">
+                <label for="Resume">Resume <span class="red">*</span></label>
+            </div>
+            <div class="input">
+                <input type="file" id="Resume">
+            </div>
+        </div>
+        <div class="container">
+            <div class="label">
+                <label for="Address">Address</label>
+            </div>
+            <div class="input">
+                <input type="text" id="Address" placeholder="Address Line 1">
+                <input type="text" id="Address" placeholder="Address Line 2">
+                <input type="text" id="Address" placeholder="Street Name">
+            </div>
+        </div>
+    </form>
 </body>
 </html>
