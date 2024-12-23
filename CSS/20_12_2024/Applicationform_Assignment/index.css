@@ -46,3 +46,39 @@
 .red{
     color: red;
 }
+
+.input select {
+    width: 210px;
+}
+
+@media all and (max-width: 800px){
+    .container{
+        flex-direction: row;
+    }
+    .container:nth-child(1){
+        flex-direction: column;
+        padding-bottom: 6%;
+
+    }
+    .input{
+        flex-direction: column;
+        /* position: relative; */
+        left: 30;
+    }
+    .input input{
+        width: 100%;
+    }
+    .input select{
+        width: 100%;
+    }
+    .radio{
+        flex-direction: row;
+    }
+    .radio input{
+        width: auto;
+        height: auto;
+    }
+    .radio label{
+        padding-left: 0px;
+}
+}
