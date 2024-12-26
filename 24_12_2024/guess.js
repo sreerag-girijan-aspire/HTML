@@ -17,6 +17,7 @@ guessCount=1;
         para.textContent="Congratulations! You got it right! random number reseted";
         para.style.backgroundColor="green";
         guessCount=0;
+        
     }
     else if (userGuess<randomNumber){
         para=document.querySelector(".output");
@@ -28,6 +29,11 @@ guessCount=1;
         para.style.backgroundColor="red";
     }
     guessCount++;
+    prev=document.querySelector(".prev-val");
+    prev.textContent+=userGuess+" ";
+    if (userGuess===randomNumber){
+        document.querySelector(".prev-val").textContent="Previous Value:";
+    }
 
   }
 
