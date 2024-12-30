@@ -1,0 +1,11 @@
+/* #ptagid{
+    color: blue;
+} */
+
+.ptag{
+    color: red;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 50px;
+
+}
