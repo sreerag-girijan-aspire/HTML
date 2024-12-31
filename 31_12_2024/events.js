@@ -28,4 +28,4 @@ function bgChange(e) {
     console.log(e);
   }
   
-  btn3.addEventListener("click", bgChange);
+  btn3.addEventListener("mouseover", bgChange);
