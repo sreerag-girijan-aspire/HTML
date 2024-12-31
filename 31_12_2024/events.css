@@ -1,0 +1,26 @@
+.change-color button {
+    margin: 10px;
+    border-color: red;
+  }
+.change-color{
+    margin: 1px;
+    border: 1px solid blue;
+}
+
+.color-loop button{
+    margin: 10px;
+    border-color: red;    
+}
+.color-loop{
+    margin: 1px;
+    border: 1px solid black;
+}
+
+.color-btn button{
+    margin: 10px;
+    border-color: red;    
+}
+.color-btn{
+    margin: 1px;
+    border: 1px solid green;
+}
