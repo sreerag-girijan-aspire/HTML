@@ -29,18 +29,14 @@ function PersonName(name="selvan") {
       console.log(`Hi! I'm ${this.name}.`);
     };
   }
+    PersonName.prototype.age = 55;
     const salvan =new PersonName("Salvan"); 
     salvan.introduceSelf();
     console.log(salvan.age);
     salvan.age=25;
-    console.log(salvan.age);
-
     const salvu=new PersonName("Salvu");
-    
-
-  PersonName.prototype.age = 55;
-  console.log(salvu.age);
-  console.log(salvan.age);
+    console.log(salvu.age);
+    console.log(salvan.age);
 //   PersonName.prototype.brand = "BMW";
 //   console.log(salvan.age);
 //   const salvan2 = new PersonName("Salvan2");
