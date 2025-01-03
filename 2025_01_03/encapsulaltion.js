@@ -34,3 +34,27 @@ summers.introduceSelf(); // Hi! I'm Summers, and I'm in year 2.
 summers.canStudyArchery(); // true
 
 // summers.#year; // SyntaxError
+
+
+
+
+
+
+
+class Example {
+    somePublicMethod() {
+      this.#somePrivateMethod();
+    }
+  
+    #somePrivateMethod() {
+      console.log("You called me?");
+    }
+  }
+  
+  const myExample = new Example();
+  
+  myExample.somePublicMethod(); // 'You called me?'
+  
+//   myExample.#somePrivateMethod(); // SyntaxError
+  
+
