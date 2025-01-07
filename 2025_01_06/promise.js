@@ -4,12 +4,12 @@ const button = document.querySelector("#set-alarm");
 const output = document.querySelector("#output");
 
 function alarm(person, delay) {
-  return new Promise((res, rej) => {
+  return new Promise((resolve, reject) => {
     if (delay < 0) {
-      rej(new Error("Alarm delay must not be negative"));
+      reject(new Error("Alarm delay must not be negative"));
     }
     setTimeout(() => {
-      res(`Wake up, ${person}!`);
+      resolve(`Wake up, ${person}!`);
     }, delay);
   });
 }

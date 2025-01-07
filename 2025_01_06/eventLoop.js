@@ -1,5 +1,5 @@
-async function asyncfunc() {
-    await setTimeout(() => {
+function asyncfunc() {
+    setTimeout(() => {
         setTimeout(() => {
             console.log(`Wake up, Man2!`);
           }, 1000);
