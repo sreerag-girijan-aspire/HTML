@@ -8,6 +8,7 @@ function alarm(person, delay) {
     if (delay < 0) {
       reject(new Error("Alarm delay must not be negative"));
     }
+    
     setTimeout(() => {
       resolve(`Wake up, ${person}!`);
     }, delay);
