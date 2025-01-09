@@ -15,11 +15,11 @@ console.log(a, b);
 var { a:a1, b:b1 } = obj;
 console.log(a1, b1);
 
-let a = 1;                  //
-let b = 3;                  //
-[a, b] = [b, a];            // swap
-console.log(a); // 3        //    
-console.log(b); // 1        //
+let e = 1;                  //
+let f = 3;                  //
+[e, f] = [f, e];            // swap
+console.log(e); // 3        //    
+console.log(f); // 1        //
 
 const arr = [1, 2, 3];
 [arr[2], arr[1]] = [arr[1], arr[2]];
