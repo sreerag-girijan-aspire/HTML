@@ -25,8 +25,11 @@ function App() {
 // export default App;
 
 function MyButton() {
+  function handleClick() {
+    alert('You clicked me!');
+  }
   return (
-    <button id='my-button'>
+    <button id='my-button' onClick={handleClick}>
       I'm a button
     </button>
   );
