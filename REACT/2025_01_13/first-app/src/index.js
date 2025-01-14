@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AboutPage from './About';
+import Profile from './Profile';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <AboutPage/>
+    <Profile/>
   </React.StrictMode>
 );
 

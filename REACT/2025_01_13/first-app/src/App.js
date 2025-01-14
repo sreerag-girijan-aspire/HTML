@@ -26,7 +26,7 @@ function App() {
 
 function MyButton() {
   return (
-    <button>
+    <button id='my-button'>
       I'm a button
     </button>
   );
