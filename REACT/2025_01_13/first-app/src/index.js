@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import AboutPage from './About';
 import Profile from './Profile';
+import List from './List';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <App />
     <AboutPage/>
     <Profile/>
+    <List/>
   </React.StrictMode>
 );
 
