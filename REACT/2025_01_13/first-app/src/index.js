@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import AboutPage from './About';
 import Profile from './Profile';
 import List from './List';
+import MyAppUseState from './UseState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <AboutPage/>
     <Profile/>
     <List/>
+    <MyAppUseState/>
   </React.StrictMode>
 );
 
