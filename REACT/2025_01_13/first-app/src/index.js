@@ -7,6 +7,7 @@ import AboutPage from './About';
 import Profile from './Profile';
 import List from './List';
 import MyAppUseState from './UseState';
+import UseStateShared from './UseStateShared';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <Profile/>
     <List/>
     <MyAppUseState/>
+    <UseStateShared/>
   </React.StrictMode>
 );
 
