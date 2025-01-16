@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { Htmls } from './UseStateShared';
 
 function App() {
   return (
@@ -40,6 +41,7 @@ export default function MyApp() {
     <div>
       <h1>Welcome to my app</h1>
       <MyButton />
+      <Htmls/>
     </div>
   );
 }
