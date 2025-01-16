@@ -7,7 +7,9 @@ import AboutPage from './About';
 import Profile from './Profile';
 import List from './List';
 import MyAppUseState from './UseState';
-import UseStateShared from './UseStateShared';
+// import UseStateShared from './UseStateShared';
+// import { Htmls } from './UseStateShared';
+import * as mod from './UseStateShared';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,7 +19,10 @@ root.render(
     <Profile/>
     <List/>
     <MyAppUseState/>
-    <UseStateShared/>
+    {/* <UseStateShared/>
+    <Htmls/> */}
+    <mod.default/>
+    <mod.Htmls/>
   </React.StrictMode>
 );
 

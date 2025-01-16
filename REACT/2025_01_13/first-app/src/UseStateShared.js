@@ -23,3 +23,13 @@ function MyButton({ count, onClick }) {
     </button>
   );
 }
+
+
+export function Htmls(){
+    return(
+        <>
+        <h1>New Export</h1>
+        </>
+
+    )
+}
