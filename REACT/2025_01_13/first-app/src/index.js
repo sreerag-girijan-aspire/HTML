@@ -10,6 +10,7 @@ import MyAppUseState from './UseState';
 // import UseStateShared from './UseStateShared';
 // import { Htmls } from './UseStateShared';
 import * as mod from './UseStateShared';
+import Board from './TiTaTo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,6 +24,7 @@ root.render(
     <Htmls/> */}
     <mod.default/>
     <mod.Htmls/>
+    <Board/>
   </React.StrictMode>
 );
 
