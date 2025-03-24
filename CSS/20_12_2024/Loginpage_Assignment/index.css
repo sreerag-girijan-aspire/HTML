@@ -100,6 +100,7 @@ color: rgb(65, 65, 65);
     background-color: rgb(43, 39, 39);
     border-radius: 5px;
     border: 2px;
+    transition: 0.8s ease;
 }
 .signIn button:hover{
     background-color: blueviolet;
